@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clientes</title>
+  <link rel="stylesheet" href="styleserv.css" />
+  <style>
+    .quadradoc {
+      width: 90%;
+      height: 100px;
+      background-color: rgba(197, 197, 197);
+      margin-bottom: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .quadradoc-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      width: 100%;
+      padding: 0 40px;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      color: #333;
+    }
+
+    .quadradoc-content div {
+      display: flex;
+      align-items: center;
+    }
+
+    .quadradoc.header {
+      background-color: #bcbcbc;
+      font-weight: bold;
+    }
+
+    .navBar a {
+      text-decoration: none;
+    }
+
+    .navBar {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
+      background-color: rgb(77, 2, 2);
+      margin-top: -8px;
+    }
+
+    .navBar h1 {
+      font-size: 28px;
+      color: #ffffff;
+      margin: 0 10px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .TClientes {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-left: 4%;
+      color: rgb(77, 2, 2);
+      margin-top: 3%;
+    }
+  </style>
+</head>
+    <header class="navbar">
+           <div class="logo-container">
+        <img src="img/logosantoros.png" alt="Santoro's Logo" class="Logo" id="logo" />
+      </div>
+        <div class="nav-container">
+
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">INÍCIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ReservasServidor.html" class="nav-link active">RESERVAS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ClientesServidor.html" class="nav-link">CLIENTES</a>
+                </li>
+               
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+<body>
+
+
+
+  <div class="TClientes">
+    <h1>CLIENTES</h1>
+  </div>
+
+  <div class="Clientes">
+    <div class="quadradoc header">
+      <div class="quadradoc-content">
+        <div>NOME</div>
+        <div>MESA</div>
+        <div>TELEFONE</div>
+        <div>E-MAIL</div>
+      </div>
+    </div>
+
+    <div class="quadradoc"><div class="quadradoc-content"><div class="nome">João Silva</div><div class="mesa">1</div><div class="telefone">(11) 91234-5678</div><div class="email">joao@gmail.com</div></div></div>
+    <div class="quadradoc"><div class="quadradoc-content"><div class="nome">Maria Oliveira</div><div class="mesa">2</div><div class="telefone">(11) 98888-1234</div><div class="email">maria@yahoo.com</div></div></div>
+    <div class="quadradoc"><div class="quadradoc-content"><div class="nome">Lucas Costa</div><div class="mesa">3</div><div class="telefone">(11) 97777-4567</div><div class="email">lucas@hotmail.com</div></div></div>
+    <div class="quadradoc"><div class="quadradoc-content"><div class="nome">Fernanda Lima</div><div class="mesa">4</div><div class="telefone">(11) 93456-7890</div><div class="email">fernanda@outlook.com</div></div></div>
+    <div class="quadradoc"><div class="quadradoc-content"><div class="nome">Carlos Mendes</div><div class="mesa">5</div><div class="telefone">(11) 94567-4321</div><div class="email">carlosm@gmail.com</div></div></div>
+    <div class="quadradoc"><div class="quadradoc-content"><div class="nome">Ana Paula</div><div class="mesa">6</div><div class="telefone">(11) 95678-2345</div><div class="email">ana.paula@mail.com</div></div></div>
+    <div class="quadradoc"><div class="quadradoc-content"><div class="nome">Rafael Souza</div><div class="mesa">7</div><div class="telefone">(11) 99876-1234</div><div class="email">rafael.souza@hotmail.com</div></div></div>
+    <div class="quadradoc"><div class="quadradoc-content"><div class="nome">Juliana Freitas</div><div class="mesa">8</div><div class="telefone">(11) 92345-9876</div><div class="email">julifreitas@gmail.com</div></div></div>
+    <div class="quadradoc"><div class="quadradoc-content"><div class="nome">Bruno Rocha</div><div class="mesa">9</div><div class="telefone">(11) 90123-4567</div><div class="email">brunor@globo.com</div></div></div>
+    <div class="quadradoc"><div class="quadradoc-content"><div class="nome">Larissa Martins</div><div class="mesa">10</div><div class="telefone">(15) 93456-7788</div><div class="email">larissa.martins@email.com</div></div></div>
+    <div class="quadradoc"><div class="quadradoc-content"><div class="nome">Pedro Henrique</div><div class="mesa">11</div><div class="telefone">(11) 97890-1122</div><div class="email">pedro.henrique@uol.com.br</div></div></div>
+    <div class="quadradoc"><div class="quadradoc-content"><div class="nome">Camila Duarte</div><div class="mesa">12</div><div class="telefone">(11) 90987-2233</div><div class="email">camila.duarte@terra.com.br</div></div></div>
+    <div class="quadradoc"><div class="quadradoc-content"><div class="nome">Marcelo Ribeiro</div><div class="mesa">13</div><div class="telefone">(11) 96789-3344</div><div class="email">marcelo.ribeiro@gmail.com</div></div></div>
+    <div class="quadradoc"><div class="quadradoc-content"><div class="nome">Aline Costa</div><div class="mesa">14</div><div class="telefone">(11) 97654-4455</div><div class="email">aline.costa@yahoo.com.br</div></div></div>
+    <div class="quadradoc"><div class="quadradoc-content"><div class="nome">Vinicius Alves</div><div class="mesa">15</div><div class="telefone">(11) 91234-5566</div><div class="email">vinicius.alves@hotmail.com</div></div></div>
+    <div class="quadradoc"><div class="quadradoc-content"><div class="nome">Beatriz Nunes</div><div class="mesa">16</div><div class="telefone">(11) 93456-6677</div><div class="email">beatriz.nunes@icloud.com</div></div></div>
+  </div>
+</body>
+</html>
